@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a2a0a25e6ff794e9c0feaf062b9407, type: 3}
+  m_Name: HouseMetadata(CityStage)
+  m_EditorClassIdentifier: 
+  houseDatas:
+  - houseId: 1
+    name: "\uB0A1\uC740 \uC544\uC9C0\uD2B8"
+    purchasePrice: 0
+    sellPrice: 0
+    staminaRecoveryAmount: 1
+    playerHave: 1
+    parkingVehicleList: 
+    maxParkingVehicle: 1
+  - houseId: 2
+    name: "\uBE4C\uB77C"
+    purchasePrice: 2000
+    sellPrice: 1600
+    staminaRecoveryAmount: 3
+    playerHave: 0
+    parkingVehicleList: 
+    maxParkingVehicle: 2
+  - houseId: 3
+    name: "\uC544\uD30C\uD2B8"
+    purchasePrice: 8000
+    sellPrice: 6400
+    staminaRecoveryAmount: 4
+    playerHave: 0
+    parkingVehicleList: 
+    maxParkingVehicle: 2
+  - houseId: 4
+    name: "\uC8FC\uC0C1\uBCF5\uD569"
+    purchasePrice: 25000
+    sellPrice: 20000
+    staminaRecoveryAmount: 6
+    playerHave: 0
+    parkingVehicleList: 
+    maxParkingVehicle: 2
+  - houseId: 5
+    name: "\uC804\uC6D0\uC8FC\uD0DD"
+    purchasePrice: 100000
+    sellPrice: 80000
+    staminaRecoveryAmount: 8
+    playerHave: 0
+    parkingVehicleList: 
+    maxParkingVehicle: 2
+  - houseId: 6
+    name: "\uC800\uD0DD"
+    purchasePrice: 300000
+    sellPrice: 240000
+    staminaRecoveryAmount: 12
+    playerHave: 0
+    parkingVehicleList: 
+    maxParkingVehicle: 2
+  hotelDatas:
+  - hotelId: 1
+    name: 
+    hotelExpenses: 0
+    staminaRecoveryAmount: 0
+  - hotelId: 2
+    name: 
+    hotelExpenses: 0
+    staminaRecoveryAmount: 0
+  defaultRecoverySpeed: 1

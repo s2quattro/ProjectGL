@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b27955ea8bd9b944a8e0e6e0b6bcf89, type: 3}
+  m_Name: StockMetadata(CityStage)
+  m_EditorClassIdentifier: 
+  stockData:
+  - stockId: 1
+    stockName: "NG\uC804\uC790"
+    startPrice: 50
+    minChangePrice: 0
+    maxChangePrice: 12
+    lowerBoundPrice: 0
+  - stockId: 2
+    stockName: "\uC624\uC131\uC911\uACF5\uC5C5"
+    startPrice: 70
+    minChangePrice: 0
+    maxChangePrice: 15
+    lowerBoundPrice: 0
+  - stockId: 3
+    stockName: White Messa
+    startPrice: 40
+    minChangePrice: 0
+    maxChangePrice: 10
+    lowerBoundPrice: 0
+  - stockId: 4
+    stockName: "\uBBF8\uB798\uC790\uB3D9\uCC28"
+    startPrice: 90
+    minChangePrice: 0
+    maxChangePrice: 20
+    lowerBoundPrice: 0
+  - stockId: 5
+    stockName: "\uD638\uD154 \uACE0\uAD6C\uB824"
+    startPrice: 20
+    minChangePrice: 0
+    maxChangePrice: 6
+    lowerBoundPrice: 0
+  - stockId: 6
+    stockName: "\uC624\uC131\uC804\uC790"
+    startPrice: 80
+    minChangePrice: 0
+    maxChangePrice: 17
+    lowerBoundPrice: 0
+  - stockId: 7
+    stockName: "ST\uD154\uB808\uCF64"
+    startPrice: 60
+    minChangePrice: 0
+    maxChangePrice: 13
+    lowerBoundPrice: 0
+  - stockId: 8
+    stockName: "\uD6A8\uC790\uC190 \uC5D4\uD130\uD14C\uC778\uBA3C\uD2B8"
+    startPrice: 30
+    minChangePrice: 0
+    maxChangePrice: 8
+    lowerBoundPrice: 0
+  - stockId: 9
+    stockName: "\uBA54\uB974\uC2A4\uC0DD\uBA85"
+    startPrice: 25
+    minChangePrice: 0
+    maxChangePrice: 7
+    lowerBoundPrice: 0
+  - stockId: 10
+    stockName: "\uAE30\uAC00\uC2A4\uD130\uB514"
+    startPrice: 10
+    minChangePrice: 0
+    maxChangePrice: 4
+    lowerBoundPrice: 0

@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3e7a9bccf427f468a77f81cdfd3b78, type: 3}
+  m_Name: StoreMetadata(CityStage)
+  m_EditorClassIdentifier: 
+  affectionBonusPerCharm:
+  - 1
+  - 1.05
+  - 1.1
+  - 1.15
+  - 1.2
+  - 1.25
+  - 1.3
+  - 1.35
+  - 1.4
+  - 1.5
+  maxAffectionPerCharm:
+  - 1
+  - 1.05
+  - 1.1
+  - 1.15
+  - 1.2
+  - 1.25
+  - 1.3
+  - 1.35
+  - 1.4
+  - 1.5
+  storeNpcList:
+  - npcId: 1
+    sellItemList:
+    - itemId: 700
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 10
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    curSellItemList: []
+    affectionDiscountDatas:
+      perAffection: 0
+      discountRateInc: 0
+    interReqiureCharmStat: 0
+    maxAffection: 0
+    maxSellItemAmount: 1
+  - npcId: 2
+    sellItemList:
+    - itemId: 100
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1000
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 101
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 100
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    curSellItemList:
+    - itemId: 100
+      curAmount: 10000
+      purchasePrice: 10
+      purchasePriceGold: 0
+    - itemId: 101
+      curAmount: 1000
+      purchasePrice: 200
+      purchasePriceGold: 0
+    affectionDiscountDatas:
+      perAffection: 100
+      discountRateInc: 0.01
+    interReqiureCharmStat: 1
+    maxAffection: 1000
+    maxSellItemAmount: 2
+  - npcId: 3
+    sellItemList:
+    - itemId: 400
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 401
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 402
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 403
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 404
+      appearPercentage: 1
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 405
+      appearPercentage: 0.7
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 407
+      appearPercentage: 0.5
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 406
+      appearPercentage: 0.4
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 408
+      appearPercentage: 0.2
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 409
+      appearPercentage: 0.18
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 410
+      appearPercentage: 0.15
+      minRequireAffection: 0
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 411
+      appearPercentage: 0.08
+      minRequireAffection: 500
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 412
+      appearPercentage: 0.03
+      minRequireAffection: 700
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 413
+      appearPercentage: 0.02
+      minRequireAffection: 800
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 414
+      appearPercentage: 0.01
+      minRequireAffection: 1000
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 800
+      appearPercentage: 0.6
+      minRequireAffection: 0
+      maxSellAmount: 5
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 801
+      appearPercentage: 0.3
+      minRequireAffection: 100
+      maxSellAmount: 2
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 802
+      appearPercentage: 0.1
+      minRequireAffection: 300
+      maxSellAmount: 1
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 900
+      appearPercentage: 0.95
+      minRequireAffection: 0
+      maxSellAmount: 50
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 901
+      appearPercentage: 0.85
+      minRequireAffection: 0
+      maxSellAmount: 20
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 906
+      appearPercentage: 0.7
+      minRequireAffection: 0
+      maxSellAmount: 5
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    - itemId: 903
+      appearPercentage: 0.5
+      minRequireAffection: 0
+      maxSellAmount: 10
+      curRemainAmount: 0
+      incAffectionAmount: 0
+    curSellItemList:
+    - itemId: 400
+      curAmount: 1
+      purchasePrice: 10
+      purchasePriceGold: 0
+    - itemId: 401
+      curAmount: 1
+      purchasePrice: 30
+      purchasePriceGold: 0
+    - itemId: 402
+      curAmount: 1
+      purchasePrice: 80
+      purchasePriceGold: 0
+    - itemId: 403
+      curAmount: 1
+      purchasePrice: 140
+      purchasePriceGold: 0
+    - itemId: 404
+      curAmount: 1
+      purchasePrice: 300
+      purchasePriceGold: 0
+    - itemId: 406
+      curAmount: 1
+      purchasePrice: 1000
+      purchasePriceGold: 0
+    - itemId: 906
+      curAmount: 5
+      purchasePrice: 7
+      purchasePriceGold: 0
+    - itemId: 800
+      curAmount: 5
+      purchasePrice: 50
+      purchasePriceGold: 0
+    affectionDiscountDatas:
+      perAffection: 100
+      discountRateInc: 0.01
+    interReqiureCharmStat: 1
+    maxAffection: 1000
+    maxSellItemAmount: 8

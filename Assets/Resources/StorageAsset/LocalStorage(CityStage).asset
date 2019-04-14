@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9da0a417da354b499c630a7f6a418c8, type: 3}
+  m_Name: LocalStorage(CityStage)
+  m_EditorClassIdentifier: 
+  identificationData:
+    version: 0
+    userId: 
+  fieldData:
+    curVehicle: {fileID: 0}
+    curVehicleId: 0
+    curVehicleParkingPlace: 0
+    mainHouse: 1
+  recentTimeData:
+    bankRecentTime:
+      year: 0
+      month: 0
+      day: 0
+      hour: 0
+      minute: 0
+      second: 0
+    stockRecentTime:
+      year: 0
+      month: 0
+      day: 0
+      hour: 0
+      minute: 0
+      second: 0
+    adsRecentTime:
+      year: 0
+      month: 0
+      day: 0
+      hour: 0
+      minute: 0
+      second: 0
+  playerStat:
+    gender: 1
+    charm: 1
+    fitness: 1
+    fitnessExp: 21.60000000000005
+    credit: 1
+    creditExp: 0
+    curStamina: 213123209.4000002
+    inventoryMaxAmount: 20
+    inventoryCurAmount: 12
+  playerProperty:
+    cash: 9810909148098091735
+    deposit: 0
+    loan: 0
+    gold: 0
+  playerAcievement:
+    obtainCash: 0
+    useCash: 0
+    useStamina: 0
+    obtainOre: 0
+    purchaseCarAmount: 0
+    purchaseHouseAmount: 0
+  inventoryItems:
+  - id: 200
+    curAmount: 20
+  - id: 201
+    curAmount: 12
+  - id: 205
+    curAmount: 3
+  - id: 400
+    curAmount: 1
+  - id: 206
+    curAmount: 1
+  - id: 202
+    curAmount: 8
+  equipmentItems:
+    pickax: 412
+    head: 300
+    shoes: 500
+    buffs: 
+  horseRaceSaveDatas: []
+  horseRaceSelectHorseNum: 1
+  horseRacePutMoney: 33

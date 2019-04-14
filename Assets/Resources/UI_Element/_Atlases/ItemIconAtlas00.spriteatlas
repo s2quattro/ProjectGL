@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ItemIconAtlas00
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f6ab1b3cc982a004aa8613fbdf20a4e9, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9affb2b09cef6bd4590bddd742c6bc87, type: 3}
+  - {fileID: 21300000, guid: b3d72825d1e8b994ea92f0c023491844, type: 3}
+  - {fileID: 21300000, guid: ccb1a4b5ca72a274f9e884da26eb1e25, type: 3}
+  - {fileID: 21300000, guid: 15d072d57baf1a44db856cd8cc82c3b7, type: 3}
+  - {fileID: 21300000, guid: 19827046868f49447bffedd7486aaca3, type: 3}
+  - {fileID: 21300000, guid: 8cc61c87c3a7d4f4a9351db9a42b41d5, type: 3}
+  - {fileID: 21300000, guid: d18444c7af2183b4f8a4231bce62f4c6, type: 3}
+  - {fileID: 21300000, guid: a20388d75d8ea594880f470aa79814ae, type: 3}
+  - {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+  - {fileID: 21300000, guid: 498606d94b96788469105cf751022210, type: 3}
+  - {fileID: 21300000, guid: c7a8d9fa59733824d8e7a62f3028b3fd, type: 3}
+  - {fileID: 21300000, guid: d282f5ebd55a33d43b9da37f88e1ffd8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button_set03_c
+  - button_set10_b
+  - button_set10_f
+  - button_set03_d
+  - button_set01_e
+  - SlotFrame00
+  - SlotFrame01
+  - button_set08_c
+  - button_set01_b
+  - button_set10_d
+  - button_set02_a
+  - button_set03_b
+  m_Tag: ItemIconAtlas00
+  m_IsVariant: 0

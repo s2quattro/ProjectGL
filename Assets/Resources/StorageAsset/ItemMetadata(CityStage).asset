@@ -1,0 +1,742 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc836ee48ee71774296f2204dc27e221, type: 3}
+  m_Name: ItemMetadata(CityStage)
+  m_EditorClassIdentifier: 
+  equipmentHeadDatas:
+  - itemRarity: 0
+    name: "\uB0A1\uC740 \uBAA8\uC790"
+    maxAmount: 1
+    purchasePrice: 6
+    purchasePriceGold: 0
+    sellPrice: 3
+    description: 
+    itemImg: {fileID: 21300014, guid: dd105a39e474c4706aba36b8be4febd9, type: 3}
+    id: 300
+    equipmentType: 0
+    itemStatFactor:
+      staminaRecoverySpeed: 0.8
+      staminaIncrement: 0.7
+      autoStaminaRecoveryAmount: 1
+      miningSpeed: 0
+      miningDoubleChance: 0
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  equipmentPickaxDatas:
+  - itemRarity: 0
+    name: "\uB0A1\uC740 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 10
+    purchasePriceGold: 0
+    sellPrice: 5
+    description: "\uD754\uD558\uAC8C \uAD6C\uD560 \uC218 \uC788\uB294 \uB0A1\uC740
+      \uACE1\uAD2D\uC774"
+    itemImg: {fileID: 21300000, guid: 734344990381d87469198bd48c1dfc5a, type: 3}
+    id: 400
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.1
+      miningDoubleChance: 0
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 0
+    name: "\uC4F8\uB9CC\uD55C \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 30
+    purchasePriceGold: 0
+    sellPrice: 25
+    description: "\uADF8\uB7ED\uC800\uB7ED \uC4F8\uB9CC\uD55C \uACE1\uAD2D\uC774"
+    itemImg: {fileID: 21300000, guid: 19827046868f49447bffedd7486aaca3, type: 3}
+    id: 401
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.2
+      miningDoubleChance: 0
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 0
+    name: "\uD2BC\uD2BC\uD55C \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 80
+    purchasePriceGold: 0
+    sellPrice: 40
+    description: "\uC81C\uBC95 \uD2BC\uD2BC\uD558\uAC8C \uB9CC\uB4E4\uC5B4\uC9C4 \uACE1\uAD2D\uC774"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 402
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.35
+      miningDoubleChance: 0
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 0
+    name: "\uAC15\uCCA0 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 140
+    purchasePriceGold: 0
+    sellPrice: 70
+    description: "\uAC15\uCCA0\uB85C \uB9CC\uB4E4\uC5B4\uC9C4 \uD2BC\uD2BC\uD55C \uACE1\uAD2D\uC774"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 403
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.4
+      miningDoubleChance: 0
+      specificOreDoubleChance: 202
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 0
+    name: "\uD569\uAE08 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 300
+    purchasePriceGold: 0
+    sellPrice: 150
+    description: "\uAE08\uC18D \uD569\uAE08\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC9C4 \uC544\uC8FC
+      \uD2BC\uD2BC\uD55C \uACE1\uAD2D\uC774"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 404
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.5
+      miningDoubleChance: 0.1
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uCD08\uACBD\uD569\uAE08 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 700
+    purchasePriceGold: 0
+    sellPrice: 350
+    description: "\uCD08\uACBD\uD569\uAE08\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC9C4 \uACE1\uAD2D\uC774\\n\uACBD\uB3C4\uAC00
+      \uC544\uC8FC \uC6B0\uC218\uD558\uB2E4\uACE0 \uC54C\uB824\uC838 \uC788\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 405
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.55
+      miningDoubleChance: 0.2
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uD2F0\uD0C0\uB284 \uD569\uAE08 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 1000
+    purchasePriceGold: 0
+    sellPrice: 500
+    description: "\uD2F0\uD0C0\uB284 \uD569\uAE08\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC9C4
+      \uACE1\uAD2D\uC774\\n\uAC15\uB3C4\uAC00 \uC544\uC8FC \uC6B0\uC218\uD558\uACE0
+      \uAC00\uBCCD\uAE30\uB85C \uC720\uBA85\uD558\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 406
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.6
+      miningDoubleChance: 0.3
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uCE74\uBCF8 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 800
+    purchasePriceGold: 0
+    sellPrice: 400
+    description: "\uCE74\uBCF8\uC73C\uB85C \uB9CC\uB4E4\uC5B4\uC9C4 \uACE1\uAD2D\uC774\\n\uC544\uC8FC
+      \uAC00\uBCCD\uACE0 \uD0C4\uC131\uB825\uC774 \uC788\uB294\uAC83\uC774 \uD2B9\uC9D5\uC774\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 407
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.8
+      miningDoubleChance: 0.1
+      specificOreDoubleChance: -1
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uB8E8\uBE44 \uC7A5\uC2DD \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 1500
+    purchasePriceGold: 0
+    sellPrice: 750
+    description: "\uB8E8\uBE44\uB85C \uC7A5\uC2DD\uB41C \uC544\uC8FC \uC138\uB828\uB41C
+      \uACE1\uAD2D\uC774\\n\uC54C \uC218 \uC5C6\uB294 \uD798\uC774 \uAE43\uB4E4\uC5B4
+      \uB8E8\uBE44\uB97C \uC27D\uAC8C \uBC1C\uACAC\uD560 \uC218 \uC788\uAC8C \uD574\uC900\uB2E4\uACE0
+      \uD55C\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 408
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.7
+      miningDoubleChance: 0.2
+      specificOreDoubleChance: 203
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uC0AC\uD30C\uC774\uC5B4 \uC7A5\uC2DD \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 1700
+    purchasePriceGold: 0
+    sellPrice: 850
+    description: "\uC0AC\uD30C\uC774\uC5B4\uB85C \uC7A5\uC2DD\uB41C \uC544\uC8FC \uACE0\uAE09\uC2A4\uB7EC\uC6B4
+      \uACE1\uAD2D\uC774\\n\uC54C \uC218 \uC5C6\uB294 \uD798\uC774 \uAE43\uB4E4\uC5B4
+      \uC0AC\uD30C\uC774\uC5B4\uB97C \uC27D\uAC8C \uBC1C\uACAC\uD560 \uC218 \uC788\uAC8C
+      \uD574\uC900\uB2E4\uACE0 \uD55C\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 409
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.75
+      miningDoubleChance: 0.2
+      specificOreDoubleChance: 204
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 1
+    name: "\uC5D0\uBA54\uB784\uB4DC \uC7A5\uC2DD \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 2000
+    purchasePriceGold: 0
+    sellPrice: 1000
+    description: "\uC5D0\uBA54\uB784\uB4DC\uB85C \uC7A5\uC2DD\uB41C \uC544\uC8FC \uC544\uB984\uB2E4\uC6B4
+      \uACE1\uAD2D\uC774\\n\uC54C \uC218 \uC5C6\uB294 \uD798\uC774 \uAE43\uB4E4\uC5B4
+      \uC5D0\uBA54\uB784\uB4DC\uB97C \uC27D\uAC8C \uBC1C\uACAC\uD560 \uC218 \uC788\uAC8C
+      \uD574\uC900\uB2E4\uACE0 \uD55C\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 410
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.75
+      miningDoubleChance: 0.25
+      specificOreDoubleChance: 204
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 2
+    name: "\uB2E4\uC774\uC544\uBAAC\uB4DC \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 5000
+    purchasePriceGold: 0
+    sellPrice: 2500
+    description: "\uC7A5\uC778\uC758 \uC19C\uC528\uAC00 \uAE43\uB4E4\uC5B4 \uC788\uB294
+      \uB2E4\uC774\uC544\uBAAC\uB4DC\uB97C \uAE4E\uC544 \uB9CC\uB4E0 \uACE1\uAD2D\uC774\\n\uB208\uBD80\uC2E4
+      \uC815\uB3C4\uB85C \uCC2C\uB780\uD55C \uC678\uAD00\uB9CC\uD07C\uC774\uB098 \uACE1\uAD2D\uC774\uB85C\uC11C\uC758
+      \uC644\uC131\uB3C4\uB3C4 \uB6F0\uC5B4\uB098\uB2E4"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 411
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.75
+      miningDoubleChance: 0.3
+      specificOreDoubleChance: 206
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 2
+    name: "\uC624\uB9AC\uD560\uCF58 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 0
+    purchasePriceGold: 200
+    sellPrice: 10000
+    description: "\uC804\uC124\uC758 \uAD11\uC11D \uC624\uB9AC\uD560\uCF58\uC73C\uB85C
+      \uB9CC\uB4E4\uC5B4\uC9C4 \uC544\uC8FC \uD76C\uADC0\uD55C \uACE1\uAD2D\uC774\\n"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 412
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.8
+      miningDoubleChance: 0.4
+      specificOreDoubleChance: 207
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 2
+    name: "\uBBF8\uC2A4\uB9B4 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 0
+    purchasePriceGold: 300
+    sellPrice: 15000
+    description: "\uC804\uC124\uC758 \uAD11\uC11D \uBBF8\uC2A4\uB9B4\uB85C \uB9CC\uB4E4\uC5B4\uC9C4
+      \uC544\uC8FC \uD76C\uADC0\uD55C \uACE1\uAD2D\uC774\\n"
+    itemImg: {fileID: 21300000, guid: 8eddbee802ecf8743adc965215ee32b1, type: 3}
+    id: 413
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.85
+      miningDoubleChance: 0.5
+      specificOreDoubleChance: 208
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  - itemRarity: 2
+    name: "\uC544\uB2E4\uB9CC\uD2F0\uC6C0 \uACE1\uAD2D\uC774"
+    maxAmount: 1
+    purchasePrice: 0
+    purchasePriceGold: 500
+    sellPrice: 25000
+    description: "\uC804\uC124\uC758 \uAD11\uC11D \uC544\uB2E4\uB9CC\uD2F0\uC6C0\uC73C\uB85C
+      \uB9CC\uB4E4\uC5B4\uC9C4 \uACE1\uAD2D\uC774\\n"
+    itemImg: {fileID: 21300000, guid: cff30ecd88a200f428d2c11ca77a6096, type: 3}
+    id: 414
+    equipmentType: 1
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0.9
+      miningDoubleChance: 0.5
+      specificOreDoubleChance: 209
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  equipmentShoesDatas:
+  - itemRarity: 2
+    name: "\uC544\uC8FC \uD76C\uADC0\uD55C \uC2E0\uBC1C"
+    maxAmount: 1
+    purchasePrice: 10000
+    purchasePriceGold: 0
+    sellPrice: 80000
+    description: "\uC544\uC8FC \uD76C\uADC0\uD55C \uC2E0\uBC1C\uC774\uB2E4"
+    itemImg: {fileID: 21300000, guid: 791b3176952e12841a84567dff86731b, type: 3}
+    id: 500
+    equipmentType: 2
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0
+      miningDoubleChance: 0
+      specificOreDoubleChance: -1
+      moveSpeed: 0.7
+      staminaDecrement: 0.5
+      noStaminaConsumtionChance: 0.2
+      noStaminaConsumtionWhenMoving: 1
+  lotteryItemDatas:
+  - itemRarity: 0
+    name: "\uBCF5\uAD8C"
+    maxAmount: 10
+    purchasePrice: 10
+    purchasePriceGold: 0
+    sellPrice: 0
+    description: "\uD3C9\uBC94\uD55C \uC989\uC11D\uBCF5\uAD8C"
+    itemImg: {fileID: 21300000, guid: a34c79a810186444f87b5ef27dc74cf0, type: 3}
+    id: 100
+    lotteryDatas:
+    - prizeMoney: 20000
+      percentageValue: 1
+    - prizeMoney: 3000
+      percentageValue: 4
+    - prizeMoney: 500
+      percentageValue: 20
+    - prizeMoney: 100
+      percentageValue: 150
+    - prizeMoney: 40
+      percentageValue: 800
+    - prizeMoney: 0
+      percentageValue: 9025
+  - itemRarity: 1
+    name: "\uACE0\uAE09\uBCF5\uAD8C"
+    maxAmount: 10
+    purchasePrice: 200
+    purchasePriceGold: 0
+    sellPrice: 0
+    description: "\uC778\uC0DD\uC5ED\uC804 \uC989\uC11D\uBCF5\uAD8C"
+    itemImg: {fileID: 21300000, guid: d474e89e69ac80c44b946fa59c95e01c, type: 3}
+    id: 101
+    lotteryDatas: []
+  oreItemDatas:
+  - itemRarity: 0
+    name: "\uAD6C\uB9AC \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 1
+    description: "\uAD11\uC0B0\uC5D0\uC11C \uD754\uD788 \uBC1C\uACAC\uD560 \uC218
+      \uC788\uB294 \uAD6C\uB9AC \uAE08\uC18D \uC131\uBD84\uC774 \uC874\uC7AC\uD558\uB294
+      \uAD11\uC11D"
+    itemImg: {fileID: 21300000, guid: 848116e49d055f24ea868b8a2003f72b, type: 3}
+    id: 200
+  - itemRarity: 0
+    name: "\uC8FC\uC11D \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 2
+    description: "\uAD11\uC0B0\uC5D0\uC11C \uD754\uD788 \uBC1C\uACAC\uD560 \uC218
+      \uC788\uB294 \uC8FC\uC11D \uAE08\uC18D \uC131\uBD84\uC774 \uC874\uC7AC\uD558\uB294
+      \uAD11\uC11D"
+    itemImg: {fileID: 21300000, guid: 09a537e973a6274408333c8d9b2a585f, type: 3}
+    id: 201
+  - itemRarity: 0
+    name: "\uCCA0 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 5
+    description: "\uAD11\uC0B0\uC5D0\uC11C \uBC1C\uACAC\uD560 \uC218 \uC788\uB294
+      \uCCA0 \uAE08\uC18D \uC131\uBD84\uC774 \uC874\uC7AC\uD558\uB294 \uAD11\uC11D"
+    itemImg: {fileID: 21300000, guid: 27b74190fd733a2439125796eb90ce28, type: 3}
+    id: 202
+  - itemRarity: 1
+    name: "\uB8E8\uBE44 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 70
+    description: "\uBD89\uC740 \uBE5B\uC774 \uC778\uC0C1\uC801\uC778 \uB8E8\uBE44
+      \uBCF4\uC11D\uC758 \uC6D0\uC11D"
+    itemImg: {fileID: 21300000, guid: 80eff4768a5f20f468868ca980de091b, type: 3}
+    id: 203
+  - itemRarity: 1
+    name: "\uC0AC\uD30C\uC774\uC5B4 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 80
+    description: "\uD30C\uB780 \uBE5B\uC774 \uC778\uC0C1\uC801\uC778 \uC0AC\uD30C\uC774\uC5B4
+      \uBCF4\uC11D\uC758 \uC6D0\uC11D"
+    itemImg: {fileID: 21300000, guid: b4ca333577438c44985eb1672c929b37, type: 3}
+    id: 204
+  - itemRarity: 1
+    name: "\uC5D0\uBA54\uB784\uB4DC \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 100
+    description: "\uCCAD\uB85D \uBE5B\uC774 \uC778\uC0C1\uC801\uC778 \uC5D0\uBA54\uB784\uB4DC
+      \uBCF4\uC11D\uC758 \uC6D0\uC11D"
+    itemImg: {fileID: 21300000, guid: de5dbd5199ad5d34b972d4017a317e20, type: 3}
+    id: 205
+  - itemRarity: 1
+    name: "\uB2E4\uC774\uC544\uBAAC\uB4DC \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 300
+    description: "\uC21C\uC218\uD55C \uD0C4\uC18C\uAC00 \uC624\uB79C\uAE30\uAC04 \uACE0\uB3C4\uC758
+      \uC555\uCD95\uACFC \uC628\uB3C4\uB97C \uACAC\uB38C \uB9CC\uB4E4\uC5B4\uC9C4
+      \uC790\uC5F0\uC758 \uC544\uB984\uB2E4\uC6B4 \uBCF4\uC11D \uAD11\uC11D"
+    itemImg: {fileID: 21300000, guid: 08812ffccd9ec7449a5ef0080318e20b, type: 3}
+    id: 206
+  - itemRarity: 2
+    name: "\uC624\uB9AC\uD560\uCF58 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 1000
+    description: 
+    itemImg: {fileID: 21300000, guid: 15d072d57baf1a44db856cd8cc82c3b7, type: 3}
+    id: 207
+  - itemRarity: 2
+    name: "\uBBF8\uC2A4\uB9B4 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 1200
+    description: 
+    itemImg: {fileID: 21300000, guid: a20388d75d8ea594880f470aa79814ae, type: 3}
+    id: 208
+  - itemRarity: 2
+    name: "\uC544\uB2E4\uB9CC\uD2F0\uC6C0 \uAD11\uC11D"
+    maxAmount: 5
+    purchasePrice: -1
+    purchasePriceGold: 0
+    sellPrice: 1500
+    description: 
+    itemImg: {fileID: 21300000, guid: b3d72825d1e8b994ea92f0c023491844, type: 3}
+    id: 209
+  randomBoxDatas:
+  - itemRarity: 0
+    name: "\uB0A1\uC740 \uC544\uC774\uD15C \uC0C1\uC790"
+    maxAmount: 1
+    purchasePrice: 50
+    purchasePriceGold: 0
+    sellPrice: 25
+    description: "\uBCC4\uB85C \uD2B9\uBCC4\uD560 \uAC83\uC774 \uC5C6\uB294 \uC0C1\uC790\uC774\uB2E4."
+    itemImg: {fileID: 21300000, guid: d282f5ebd55a33d43b9da37f88e1ffd8, type: 3}
+    id: 600
+    itemSlotCount: 5
+    randomItemList:
+    - itemId: 400
+      relativeProbability: 100
+    - itemId: 401
+      relativeProbability: 80
+    - itemId: 402
+      relativeProbability: 50
+    - itemId: 203
+      relativeProbability: 30
+    - itemId: 204
+      relativeProbability: 25
+    - itemId: 205
+      relativeProbability: 20
+    - itemId: 206
+      relativeProbability: 10
+    - itemId: 800
+      relativeProbability: 50
+    - itemId: 801
+      relativeProbability: 20
+    - itemId: 700
+      relativeProbability: 10
+    - itemId: 403
+      relativeProbability: 30
+    - itemId: 404
+      relativeProbability: 20
+    - itemId: 405
+      relativeProbability: 10
+    - itemId: 901
+      relativeProbability: 200
+    - itemId: 902
+      relativeProbability: 150
+    - itemId: 903
+      relativeProbability: 75
+    - itemId: 905
+      relativeProbability: 120
+    - itemId: 906
+      relativeProbability: 80
+    - itemId: 907
+      relativeProbability: 50
+  foodItemDatas:
+  - itemRarity: 0
+    name: "\uC0DD\uC218"
+    maxAmount: 10
+    purchasePrice: 1
+    purchasePriceGold: 0
+    sellPrice: 0
+    description: "\uB9D1\uC740 \uC0DD\uC218\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 900
+    itemType: 0
+    staminaRecoveryAmount: 10
+  - itemRarity: 0
+    name: "\uD0C4\uC0B0\uC74C\uB8CC"
+    maxAmount: 10
+    purchasePrice: 2
+    purchasePriceGold: 0
+    sellPrice: 1
+    description: "\uD1A1 \uC3D8\uB294 \uB9DB\uC758 \uD0C4\uC0B0\uC74C\uB8CC\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 901
+    itemType: 0
+    staminaRecoveryAmount: 25
+  - itemRarity: 1
+    name: "\uC0DD\uACFC\uC77C \uC8FC\uC2A4"
+    maxAmount: 10
+    purchasePrice: 3
+    purchasePriceGold: 0
+    sellPrice: 2
+    description: "\uC0DD\uACFC\uC77C\uC744 \uAC08\uC544\uB123\uC5B4 \uC0C8\uCF64\uB2EC\uCF64\uD55C
+      \uAC74\uAC15 \uC8FC\uC2A4\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 902
+    itemType: 0
+    staminaRecoveryAmount: 45
+  - itemRarity: 2
+    name: "\uD30C\uC6CC \uB4DC\uB9C1\uD06C"
+    maxAmount: 10
+    purchasePrice: 5
+    purchasePriceGold: 0
+    sellPrice: 3
+    description: "\uCE74\uD398\uC778\uC774 \uC794\uB729 \uD568\uC720\uB41C \uD30C\uC6CC
+      \uB4DC\uB9C1\uD06C\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 903
+    itemType: 0
+    staminaRecoveryAmount: 100
+  - itemRarity: 0
+    name: "\uC2E0\uC120\uD55C \uBE75"
+    maxAmount: 1
+    purchasePrice: 4
+    purchasePriceGold: 0
+    sellPrice: 2
+    description: "\uBC29\uAE08 \uAC13 \uAD6C\uC6B4 \uB530\uB73B\uD55C \uBE75\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 904
+    itemType: 3
+    staminaRecoveryAmount: 80
+  - itemRarity: 0
+    name: "\uC8FC\uBA39\uBC25"
+    maxAmount: 1
+    purchasePrice: 6
+    purchasePriceGold: 0
+    sellPrice: 3
+    description: "\uC8FC\uBA39\uBC25\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 905
+    itemType: 3
+    staminaRecoveryAmount: 200
+  - itemRarity: 1
+    name: "\uACE0\uAE09 \uC721\uD3EC"
+    maxAmount: 1
+    purchasePrice: 7
+    purchasePriceGold: 0
+    sellPrice: 4
+    description: "\uC785\uC5D0\uC11C \uC0B4\uC0B4 \uB179\uB294 \uC721\uD3EC\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 906
+    itemType: 3
+    staminaRecoveryAmount: 260
+  - itemRarity: 2
+    name: "\uC7A5\uC5B4\uB36E\uBC25 \uB3C4\uC2DC\uB77D"
+    maxAmount: 1
+    purchasePrice: 10
+    purchasePriceGold: 0
+    sellPrice: 5
+    description: "\uC7A5\uC5B4\uB36E\uBC25 \uB3C4\uC2DC\uB77D\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 907
+    itemType: 3
+    staminaRecoveryAmount: 500
+  buffItemDatas:
+  - itemRarity: 0
+    name: 
+    maxAmount: 0
+    purchasePrice: 0
+    purchasePriceGold: 0
+    sellPrice: 0
+    description: 
+    itemImg: {fileID: 0}
+    id: 0
+    durationTime: 0
+    remainTime: 0
+    itemStatFactor:
+      staminaRecoverySpeed: 0
+      staminaIncrement: 0
+      autoStaminaRecoveryAmount: 0
+      miningSpeed: 0
+      miningDoubleChance: 0
+      specificOreDoubleChance: 0
+      moveSpeed: 0
+      staminaDecrement: 0
+      noStaminaConsumtionChance: 0
+      noStaminaConsumtionWhenMoving: 0
+  otherItemDatas:
+  - itemRarity: 1
+    name: "\uAE08"
+    maxAmount: 1
+    purchasePrice: 100
+    purchasePriceGold: 0
+    sellPrice: 100
+    description: "\uAE08 \uB369\uC774"
+    itemImg: {fileID: 0}
+    id: 700
+  expItemDatas:
+  - itemRarity: 0
+    name: "\uCCB4\uB825 \uC99D\uAC15\uC81C (\uC18C)"
+    maxAmount: 1
+    purchasePrice: 50
+    purchasePriceGold: 0
+    sellPrice: 25
+    description: "\uB9C8\uC2DC\uBA74 \uAE30\uC6B4\uC774 \uC19F\uB294 \uAC74\uAC15
+      \uC74C\uB8CC\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 800
+    statType: 1
+    expIncrement: 200
+  - itemRarity: 1
+    name: "\uCCB4\uB825 \uC99D\uAC15\uC81C (\uC911)"
+    maxAmount: 1
+    purchasePrice: 400
+    purchasePriceGold: 0
+    sellPrice: 200
+    description: "\uB9C8\uC2DC\uBA74 \uAE30\uC6B4\uC774 \uC19F\uB294 \uAC74\uAC15
+      \uC74C\uB8CC\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 801
+    statType: 1
+    expIncrement: 1800
+  - itemRarity: 2
+    name: "\uCCB4\uB825 \uC99D\uAC15\uC81C (\uB300)"
+    maxAmount: 1
+    purchasePrice: 0
+    purchasePriceGold: 15
+    sellPrice: 750
+    description: "\uB9C8\uC2DC\uBA74 \uAE30\uC6B4\uC774 \uC19F\uB294 \uAC74\uAC15
+      \uC74C\uB8CC\uC774\uB2E4"
+    itemImg: {fileID: 0}
+    id: 802
+    statType: 1
+    expIncrement: 8000
+  commonItemFrameColor: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
+  rareItemFrameColor: {r: 0.28655672, g: 0.2216981, b: 1, a: 1}
+  uniqueItemFrameColor: {r: 1, g: 0.1462264, b: 0.58923644, a: 1}

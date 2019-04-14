@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ItemImgAtlas00
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fba9f7948990a6c4fa9269a753de660c, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 27b74190fd733a2439125796eb90ce28, type: 3}
+  - {fileID: 21300000, guid: de5dbd5199ad5d34b972d4017a317e20, type: 3}
+  - {fileID: 21300000, guid: 78ee70811d93e6f4ebe763f804d06669, type: 3}
+  - {fileID: 21300000, guid: 848116e49d055f24ea868b8a2003f72b, type: 3}
+  - {fileID: 21300000, guid: b4ca333577438c44985eb1672c929b37, type: 3}
+  - {fileID: 21300000, guid: 791b3176952e12841a84567dff86731b, type: 3}
+  - {fileID: 21300000, guid: 80eff4768a5f20f468868ca980de091b, type: 3}
+  - {fileID: 21300000, guid: a34c79a810186444f87b5ef27dc74cf0, type: 3}
+  - {fileID: 21300000, guid: 734344990381d87469198bd48c1dfc5a, type: 3}
+  - {fileID: 21300000, guid: 09a537e973a6274408333c8d9b2a585f, type: 3}
+  - {fileID: 21300000, guid: 9133bcfb08165ac4abfd8b7eb59defb8, type: 3}
+  - {fileID: 21300000, guid: 08812ffccd9ec7449a5ef0080318e20b, type: 3}
+  - {fileID: 21300000, guid: abbc944de2f2e074c9da1e184af7e40a, type: 3}
+  - {fileID: 21300000, guid: d474e89e69ac80c44b946fa59c95e01c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - IronOreItem00
+  - EmerladItem00
+  - OreObjectSprite00
+  - CopperOreItem00
+  - SapphireItem00
+  - hermesBoots00
+  - RubyItem00
+  - LotteryItem_L00
+  - MC_Pickaxe
+  - TinOreItem00
+  - canvasBoots00
+  - DiamondItem00
+  - LotteryItem_M00
+  - LotteryItem_H00
+  m_Tag: ItemImgAtlas00
+  m_IsVariant: 0
